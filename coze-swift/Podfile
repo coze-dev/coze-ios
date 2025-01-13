@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/volcengine/volcengine-specs.git'
+
+target 'coze-swift' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'VolcEngineRTC', '3.58.1.19400'
+
+  # Pods for RTCDemo-Swift
+
+end

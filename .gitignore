@@ -42,3 +42,4 @@ injectionforxcode/
 
 # API Keys and Secrets
 **/Config/APIConfig.swift 
+**/Config/APIConfig.h

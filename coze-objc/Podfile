@@ -3,11 +3,12 @@
 source 'https://cdn.cocoapods.org/'
 source 'https://github.com/volcengine/volcengine-specs.git'
 
-target 'coze-swift' do
+target 'coze-objc' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+
   pod 'VolcEngineRTC', '3.58.1.19400'
 
-  # Pods for RTCDemo-Swift
+  # Pods for coze-objc
 
 end

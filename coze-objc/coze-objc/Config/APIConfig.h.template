@@ -1,0 +1,9 @@
+#ifndef APIConfig_h
+#define APIConfig_h
+
+#define API_BASE_URL @"https://api.coze.cn" // 替换为从 https://www.coze.cn/open/oauth/pats 获取到的token
+#define API_ACCESS_TOKEN @"pat_KWQlw2nvTlLTMISAz***"
+#define API_BOT_ID @"74281773215***"
+#define API_VOICE_ID nil
+
+#endif /* APIConfig_h */

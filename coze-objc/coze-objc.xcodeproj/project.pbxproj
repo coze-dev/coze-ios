@@ -7,145 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30597CE1DA07BA3424AE0676 /* Pods_coze_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0228743F3C21C77863011E /* Pods_coze_swift.framework */; };
+		3FF6550AAA6D2576731CCE0B /* Pods_coze_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5863DDCF7B3E7337104B43B9 /* Pods_coze_objc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B6C44FE2D34333D009DA364 /* coze-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coze-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F0228743F3C21C77863011E /* Pods_coze_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coze_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		454A34818370AB738321E7A8 /* Pods-coze-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coze-swift.release.xcconfig"; path = "Target Support Files/Pods-coze-swift/Pods-coze-swift.release.xcconfig"; sourceTree = "<group>"; };
-		B43B9C2B608423E0C04ADEEB /* Pods-coze-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coze-swift.debug.xcconfig"; path = "Target Support Files/Pods-coze-swift/Pods-coze-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		2499293D7271AF4B2FCAAE76 /* Pods-coze-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coze-objc.debug.xcconfig"; path = "Target Support Files/Pods-coze-objc/Pods-coze-objc.debug.xcconfig"; sourceTree = "<group>"; };
+		2B83B4472D381366003E7458 /* coze-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coze-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330CA32D289A90B7AA7D7957 /* Pods-coze-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coze-objc.release.xcconfig"; path = "Target Support Files/Pods-coze-objc/Pods-coze-objc.release.xcconfig"; sourceTree = "<group>"; };
+		5863DDCF7B3E7337104B43B9 /* Pods_coze_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coze_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2B6C45102D34333E009DA364 /* Exceptions for "coze-swift" folder in "coze-swift" target */ = {
+		2B83B45E2D381367003E7458 /* Exceptions for "coze-objc" folder in "coze-objc" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 2B6C44FD2D34333D009DA364 /* coze-swift */;
+			target = 2B83B4462D381366003E7458 /* coze-objc */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2B6C45002D34333D009DA364 /* coze-swift */ = {
+		2B83B4492D381366003E7458 /* coze-objc */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2B6C45102D34333E009DA364 /* Exceptions for "coze-swift" folder in "coze-swift" target */,
+				2B83B45E2D381367003E7458 /* Exceptions for "coze-objc" folder in "coze-objc" target */,
 			);
-			path = "coze-swift";
+			path = "coze-objc";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B6C44FB2D34333D009DA364 /* Frameworks */ = {
+		2B83B4442D381366003E7458 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30597CE1DA07BA3424AE0676 /* Pods_coze_swift.framework in Frameworks */,
+				3FF6550AAA6D2576731CCE0B /* Pods_coze_objc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C7973B95A58DDFFBA21A7C /* Frameworks */ = {
+		2B83B43E2D381366003E7458 = {
 			isa = PBXGroup;
 			children = (
-				3F0228743F3C21C77863011E /* Pods_coze_swift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2B6C44F52D34333D009DA364 = {
-			isa = PBXGroup;
-			children = (
-				2B6C45002D34333D009DA364 /* coze-swift */,
-				2B6C44FF2D34333D009DA364 /* Products */,
-				73EFC7B826C8F13F8140E462 /* Pods */,
-				00C7973B95A58DDFFBA21A7C /* Frameworks */,
+				2B83B4492D381366003E7458 /* coze-objc */,
+				2B83B4482D381366003E7458 /* Products */,
+				848F8E38F32D8B00B8AEC682 /* Pods */,
+				8D32E0DCD322A4AA7827224F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2B6C44FF2D34333D009DA364 /* Products */ = {
+		2B83B4482D381366003E7458 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B6C44FE2D34333D009DA364 /* coze-swift.app */,
+				2B83B4472D381366003E7458 /* coze-objc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73EFC7B826C8F13F8140E462 /* Pods */ = {
+		848F8E38F32D8B00B8AEC682 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B43B9C2B608423E0C04ADEEB /* Pods-coze-swift.debug.xcconfig */,
-				454A34818370AB738321E7A8 /* Pods-coze-swift.release.xcconfig */,
+				2499293D7271AF4B2FCAAE76 /* Pods-coze-objc.debug.xcconfig */,
+				330CA32D289A90B7AA7D7957 /* Pods-coze-objc.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D32E0DCD322A4AA7827224F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5863DDCF7B3E7337104B43B9 /* Pods_coze_objc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B6C44FD2D34333D009DA364 /* coze-swift */ = {
+		2B83B4462D381366003E7458 /* coze-objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B6C45112D34333E009DA364 /* Build configuration list for PBXNativeTarget "coze-swift" */;
+			buildConfigurationList = 2B83B45F2D381367003E7458 /* Build configuration list for PBXNativeTarget "coze-objc" */;
 			buildPhases = (
-				85C4AF541FC5E8C8B9BD55B3 /* [CP] Check Pods Manifest.lock */,
-				2B6C44FA2D34333D009DA364 /* Sources */,
-				2B6C44FB2D34333D009DA364 /* Frameworks */,
-				2B6C44FC2D34333D009DA364 /* Resources */,
-				0419338719C5C9B483FD0046 /* [CP] Embed Pods Frameworks */,
+				4AD52AE9074DBC6FFA6DF340 /* [CP] Check Pods Manifest.lock */,
+				2B83B4432D381366003E7458 /* Sources */,
+				2B83B4442D381366003E7458 /* Frameworks */,
+				2B83B4452D381366003E7458 /* Resources */,
+				6247530203090D84590A8BE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2B6C45002D34333D009DA364 /* coze-swift */,
+				2B83B4492D381366003E7458 /* coze-objc */,
 			);
-			name = "coze-swift";
-			productName = "coze-swift";
-			productReference = 2B6C44FE2D34333D009DA364 /* coze-swift.app */;
+			name = "coze-objc";
+			productName = "coze-objc";
+			productReference = 2B83B4472D381366003E7458 /* coze-objc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2B6C44F62D34333D009DA364 /* Project object */ = {
+		2B83B43F2D381366003E7458 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					2B6C44FD2D34333D009DA364 = {
+					2B83B4462D381366003E7458 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 2B6C44F92D34333D009DA364 /* Build configuration list for PBXProject "coze-swift" */;
+			buildConfigurationList = 2B83B4422D381366003E7458 /* Build configuration list for PBXProject "coze-objc" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2B6C44F52D34333D009DA364;
+			mainGroup = 2B83B43E2D381366003E7458;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2B6C44FF2D34333D009DA364 /* Products */;
+			productRefGroup = 2B83B4482D381366003E7458 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B6C44FD2D34333D009DA364 /* coze-swift */,
+				2B83B4462D381366003E7458 /* coze-objc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B6C44FC2D34333D009DA364 /* Resources */ = {
+		2B83B4452D381366003E7458 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -155,24 +154,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0419338719C5C9B483FD0046 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-coze-swift/Pods-coze-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-coze-swift/Pods-coze-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coze-swift/Pods-coze-swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85C4AF541FC5E8C8B9BD55B3 /* [CP] Check Pods Manifest.lock */ = {
+		4AD52AE9074DBC6FFA6DF340 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,17 +169,34 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-coze-swift-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-coze-objc-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6247530203090D84590A8BE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coze-objc/Pods-coze-objc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coze-objc/Pods-coze-objc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coze-objc/Pods-coze-objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B6C44FA2D34333D009DA364 /* Sources */ = {
+		2B83B4432D381366003E7458 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,9 +206,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2B6C45122D34333E009DA364 /* Debug */ = {
+		2B83B4602D381367003E7458 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B43B9C2B608423E0C04ADEEB /* Pods-coze-swift.debug.xcconfig */;
+			baseConfigurationReference = 2499293D7271AF4B2FCAAE76 /* Pods-coze-objc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -218,7 +217,7 @@
 				DEVELOPMENT_TEAM = P9654G8Z76;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "coze-swift/Info.plist";
+				INFOPLIST_FILE = "coze-objc/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问您的相机以进行视频通话";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风以进行语音通话";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -232,17 +231,16 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.coze.coze-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coze.coze-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2B6C45132D34333E009DA364 /* Release */ = {
+		2B83B4612D381367003E7458 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 454A34818370AB738321E7A8 /* Pods-coze-swift.release.xcconfig */;
+			baseConfigurationReference = 330CA32D289A90B7AA7D7957 /* Pods-coze-objc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -251,7 +249,7 @@
 				DEVELOPMENT_TEAM = P9654G8Z76;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "coze-swift/Info.plist";
+				INFOPLIST_FILE = "coze-objc/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问您的相机以进行视频通话";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风以进行语音通话";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -265,15 +263,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.coze.coze-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coze.coze-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		2B6C45142D34333E009DA364 /* Debug */ = {
+		2B83B4622D381367003E7458 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,12 +328,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2B6C45152D34333E009DA364 /* Release */ = {
+		2B83B4632D381367003E7458 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -387,7 +382,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -395,25 +389,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B6C44F92D34333D009DA364 /* Build configuration list for PBXProject "coze-swift" */ = {
+		2B83B4422D381366003E7458 /* Build configuration list for PBXProject "coze-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B6C45142D34333E009DA364 /* Debug */,
-				2B6C45152D34333E009DA364 /* Release */,
+				2B83B4622D381367003E7458 /* Debug */,
+				2B83B4632D381367003E7458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B6C45112D34333E009DA364 /* Build configuration list for PBXNativeTarget "coze-swift" */ = {
+		2B83B45F2D381367003E7458 /* Build configuration list for PBXNativeTarget "coze-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B6C45122D34333E009DA364 /* Debug */,
-				2B6C45132D34333E009DA364 /* Release */,
+				2B83B4602D381367003E7458 /* Debug */,
+				2B83B4612D381367003E7458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2B6C44F62D34333D009DA364 /* Project object */;
+	rootObject = 2B83B43F2D381366003E7458 /* Project object */;
 }

@@ -1,10 +1,10 @@
 # coze-swift
 
-一个基于火山引擎 RTC 技术的 iOS 实时语音演示项目，使用 Swift 语言开发。
+一个基于火山引擎 RTC 技术的 iOS 实时语音演示项目，使用 Objective-C 语言开发。
 
 ## 快速入门
 
-详细的快速入门指南请参考：[Coze iOS（Swift）实时语音快速入门](https://bytedance.larkoffice.com/docx/TFfHdgES2o9pMBxieKqcXeadnjd)
+详细的快速入门指南请参考：[Coze iOS（Objective-C）实时语音快速入门](https://bytedance.larkoffice.com/docx/C7ZKd2N9doyC7TxxtJac1sm8nie)
 
 快速开始步骤：
 
@@ -34,7 +34,6 @@
 
 - iOS 11.0+
 - Xcode 14.1+
-- Swift 5.0+
 - CocoaPods
 
 ## 安装说明
@@ -43,7 +42,7 @@
 
 ```bash
 git clone https://github.com/coze-dev/coze-ios
-cd coze-swift
+cd coze-objc
 ```
 
 2. 安装依赖：
@@ -54,18 +53,18 @@ pod install
 
 3. 配置 API 信息：
 
-   - 复制 `coze-swift/Config/APIConfig.swift.template` 为 `coze-swift/Config/APIConfig.swift`
-   - 在 `APIConfig.swift` 中配置您的 accessToken、botId、voiceId
+   - 复制 `coze-objc/Config/APIConfig.h.template` 为 `coze-objc/Config/APIConfig.h`
+   - 在 `APIConfig.h` 中配置您的 accessToken、botId、voiceId
 
-4. 使用 Xcode 打开 `coze-swift.xcworkspace`
+4. 使用 Xcode 打开 `coze-objc.xcworkspace`
 5. 选择真机设备进行调试
 
 ## 项目结构
 
-- `Config/APIConfig.swift`：配置 API 相关信息
-- `Models/ApiResponse.swift`：API 返回数据结构
-- `Services/NetworkService.swift`：API 请求封装
-- `ViewController.swift`：主界面
+- `Config/APIConfig.h`：配置 API 相关信息
+- `Models/ApiResponse.m`：API 返回数据结构
+- `Services/NetworkService.m`：API 请求封装
+- `ViewController.m`：主界面
 
 ## 使用说明
 
@@ -75,7 +74,7 @@ pod install
 
 ## 注意事项
 
-- 请确保在使用前正确配置 APIConfig.swift 文件
+- 请确保在使用前正确配置 APIConfig.h 文件
 - 务必使用真机调试
 - 确保设备已授权摄像头和麦克风权限
 

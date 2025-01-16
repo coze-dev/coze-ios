@@ -342,7 +342,9 @@ extension ViewController {
         // 在主线程更新 UI
         DispatchQueue.main.async {
             // 如果上一个事件是增量更新，则附加到最后一条消息
-            if self.lastEventType == "conversation.message.delta" {
+            if self.lastEventType == "conversation.message.delta"
+                && eventType == "conversation.message.delta"
+            {
                 if var lastMessage = self.messageList.last {
                     lastMessage += message
                     self.messageList[self.messageList.count - 1] = lastMessage
